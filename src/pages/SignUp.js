@@ -50,8 +50,8 @@ const SellerRegister = () => {
     const compressedData = JSON.stringify(data); // Compress using gzip or zlib if needed
     console.log("compressedData", compressedData);
     if (data.password === data.confirmPassword) {
-      const dataResponse = await fetch(SummaryApi.SellerSignUP.url, {
-        method: SummaryApi.SellerSignUP.method,
+      const dataResponse = await fetch(SummaryApi.signUP.url, {
+        method: SummaryApi.signUP.method,
         headers: {
           "content-type": "application/json",
         },
