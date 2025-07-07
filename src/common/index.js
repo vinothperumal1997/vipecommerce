@@ -1,4 +1,5 @@
-const backendDomain = "http://localhost:8081";
+// const backendDomain = "http://localhost:8081";
+const backendDomain = "https://vipecommerce-bakend.vercel.app";
 
 const SummaryApi = {
   signUP: {
